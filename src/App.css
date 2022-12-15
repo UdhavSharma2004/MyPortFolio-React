@@ -1,0 +1,109 @@
+*{
+  outline:solid 1px white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  line-height: auto;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.glasseffect{
+/* From https://css.glass */
+background: rgba(217, 217, 217, 0.2);
+border-radius: 50px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5.7px);
+-webkit-backdrop-filter: blur(5.7px);
+  }
+  ::-webkit-scrollbar {
+    width: 5px;
+  }
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #37BCF6;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #00b3ff;
+  }
+@media (min-width: 900px){
+  .contactmehere,.contactform{
+    width:48vw;
+  }
+  .leftcont,.rightcont{
+    width:48vw;
+  }
+  .profileImg{
+    width:24rem;
+  }
+  .PImage{
+    width:100vw;
+  }
+}
+@media (max-width:866px){
+  .profileImg{
+    padding-left: 25vw;
+    padding-right: 25vw;
+  }
+}
+@media (max-width: 360px){
+  .contactmehere,.contactform{
+    width:100vw;
+  }
+  .leftcont,.rightcont{
+    width:100vw;
+  }
+}
+@media (max-width:760px){
+  #navb{
+    position: fixed;
+    left:0rem;
+    height:98%;
+    width:9rem;
+  }
+  .links{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top:3rem;
+  }
+  .linkObj{
+    margin-top: 4rem;
+    margin-left:auto;
+    margin-right:auto;
+  }
+}
