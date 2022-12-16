@@ -17,7 +17,7 @@ export default function Home(){
         </div>
         <div className="logos flex space-x-[6vw] mt-[2.5rem] mx-[2rem]">
           <div className="homeIcons linkedIn hover:">
-            <a href="https://www.linkedin.com/in/udhavsharma2004/" target={"_blank"}>
+            <a href="https://www.linkedin.com/in/udhavsharma2004/" target={"_blank"} rel="noreferrer">
               <img
                 className="w-[6rem] rounded-[1rem] hover:scale-95 hover:border-[0.25rem] border-[#37BCF6]"
                 src={require("./linkedinlogo.jpg")}
@@ -26,7 +26,7 @@ export default function Home(){
             </a>
           </div>
           <div className="homeIcons gitHub ">
-            <a href="https://github.com/UdhavSharma2004" target={"_blank"}>
+            <a href="https://github.com/UdhavSharma2004" target={"_blank"} rel="noreferrer">
               <img
                 className="w-[6rem] rounded-[1rem] hover:scale-95 hover:border-[0.25rem] border-[#37BCF6]"
                 src={require("./githubImg.jpg")}
@@ -35,7 +35,7 @@ export default function Home(){
             </a>
           </div>
           <div className="homeIcons instaGram ">
-            <a href="https://www.instagram.com/udhavsharma04/" target={"_blank"}>
+            <a href="https://www.instagram.com/udhavsharma04/" target={"_blank"} rel="noreferrer">
               <img
                 className="w-[6rem] rounded-[1rem] hover:scale-95 hover:border-[0.25rem] border-[#37BCF6]"
                 src={require("./instagramlogo.jpg")}
@@ -48,7 +48,7 @@ export default function Home(){
       <div className="rightcont flex flex-col justify-center items-center">
         <div className="profileImg ">
           <img
-            className="PImage flex flex-col justify-center items-center inline rounded-[20px] mt-[60px] max-w-[24rem]"
+            className="PImage flex flex-col justify-center items-center rounded-[20px] mt-[60px] max-w-[24rem]"
             src={require("./ProfileImg.jpg")}
             alt="logo"
           />

@@ -15,14 +15,14 @@ export default function EmailJS(){
           console.log(error.text);
       });
   };
-  const sendEmailTest = (e) => {
-    e.preventDefault();
+  // const sendEmailTest = (e) => {
+  //   e.preventDefault();
 
-    toast.success("Mail sent successfully !");
-  };
+  //   toast.success("Mail sent successfully !");
+  // };
 
   return (
-    <form ref={form} onSubmit={sendEmailTest}>
+    <form ref={form} onSubmit={sendEmail}>
       <h3 className="text-twblue text-[2.5rem] font-black text-center mb-2">Direct Contact</h3>
       <input type="text" placeholder="YOUR NAME" name="user_name" className="bg-transparent border-[3px] border-white rounded-[30px] w-[100%] h-[75px]  m-2 placeholder-twblue p-2" />
       <input type="email" placeholder="YOUR EMAIL" name="user_email" className="bg-transparent border-[3px] border-white rounded-[30px] w-[100%] h-[75px]  m-2 placeholder-twblue p-2" />

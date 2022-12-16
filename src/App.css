@@ -89,8 +89,24 @@ backdrop-filter: blur(5.7px);
     width:100vw;
   }
 }
+/* p-[10px] z-10 h-[120px]
+@media (min-width:760px){
+  #navb{
+    color:white;
+    position: fixed;
+    top:0;
+    display:flex;
+    justify-content: end;
+    width:98vw;
+    margin:10px;
+    padding:10px;
+    z-index:10;
+    height:120px;
+ }
+} */
 @media (max-width:760px){
   #navb{
+    /*  */
     position: fixed;
     left:0rem;
     height:98%;

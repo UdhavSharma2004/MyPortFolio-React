@@ -1,66 +1,79 @@
 export default function Projects(){
     const projects=[
         {
-            "projId":"1",
-            "description":"random words as a description",
-            "imgSrc":"/src/Files/Projects/Project_img.jpeg",
+            "projId":"latest",
+            "description":"New Project Under Process",
+            "imgSrc":"/Project_img.jpeg",
             "deployLink":"https://github.com/UdhavSharma2004?tab=repositories"
+        },
+        {
+            "projId":"1",
+            "description":"Random quote generator",
+            "imgSrc":"/quoteGenerator.jpg",
+            "deployLink":"https://udhavsharma2004.github.io/Random_quote_generator/"
         },
         {
             "projId":"2",
-            "description":"random words as a description",
-            "imgSrc":"/src/Files/Projects/Project_img.jpeg",
-            "deployLink":"https://github.com/UdhavSharma2004?tab=repositories"
+            "description":"Stopwatch using JS",
+            "imgSrc":"/stopwatch.jpg",
+            "deployLink":"https://udhavsharma2004.github.io/stop_watch_JS/"
         },
         {
             "projId":"3",
-            "description":"random words as a description",
-            "imgSrc":"/src/Files/Projects/Project_img.jpeg",
-            "deployLink":"https://github.com/UdhavSharma2004?tab=repositories"
+            "description":"Clock using JS",
+            "imgSrc":"/clockImage.jpg",
+            "deployLink":"https://udhavsharma2004.github.io/Clock_using_JS/"
         },
         {
             "projId":"4",
-            "description":"random words as a description",
-            "imgSrc":"/src/Files/Projects/Project_img.jpeg",
-            "deployLink":"https://github.com/UdhavSharma2004?tab=repositories"
+            "description":"Calculator using JS",
+            "imgSrc":"/calculator.jpg",
+            "deployLink":"https://udhavsharma2004.github.io/Calculator_JS/"
         },
         {
             "projId":"5",
-            "description":"random words as a description",
-            "imgSrc":"/src/Files/Projects/Project_img.jpeg",
-            "deployLink":"https://github.com/UdhavSharma2004?tab=repositories"
+            "description":"Task Organizer using JS",
+            "imgSrc":"/taskOrganizer.jpg",
+            "deployLink":"https://udhavsharma2004.github.io/task_organizer/"
         },
         {
             "projId":"6",
-            "description":"random words as a description",
-            "imgSrc":"`/src/Files/Projects/Project_img.jpeg`",
-            "deployLink":"https://github.com/UdhavSharma2004?tab=repositories"
+            "description":"ReactJs-JSON Server CRUD app",
+            "imgSrc":"/crudapp.jpg",
+            "deployLink":"https://github.com/UdhavSharma2004/CRUDApp_1"
         },
         {
             "projId":"7",
-            "description":"random words as a description",
-            "imgSrc":"require('./Project_img.jpeg')",
-            "deployLink":"https://github.com/UdhavSharma2004?tab=repositories"
+            "description":"Instagram Clone HTML-CSS",
+            "imgSrc":"/imstagram.jpg",
+            "deployLink":"https://udhavsharma2004.github.io/Instagram_clone/"
         },
         {
             "projId":"8",
-            "description":"random wokjdfgbsdfrds as a description",
-            "imgSrc":"require('./Project_img.jpeg')",
-            "deployLink":"https://github.com/UdhavSharma2004?tab=repositories"
+            "description":"Taj Hotels Clone HTML-CSS",
+            "imgSrc":"/Tajhotels.jpg",
+            "deployLink":"https://udhavsharma2004.github.io/clone_taj_hotels_2/"
+        },
+        {
+            "projId":"9",
+            "description":"Sudoku Solver HTML-CSS-JS, also OSC",
+            "imgSrc":"/sudoku.jpg",
+            "deployLink":"https://onehtmlpagechallenge.com/entries/UdhavSudoku.html"
         },
     ]
     let total=projects.length;
     const list=[];
-    for(let i=0;i<total;i++){
+    for(let i=total-1;i>=0;i--){
         let words=projects[i].description;
         let dlink=projects[i].deployLink;
+        let imgPath=projects[i].imgSrc;
         list.push(<div className="obj w-[22.5rem] h-[16rem] m-1 border-[0.25rem] border-white rounded-[1rem]">
         <div className="image m-[1rem] w-[17rem]">
-            <img src={require('./Project_img.jpeg')} className="rounded-[1rem]"/>
+            <img src={process.env.PUBLIC_URL + '/images/'+imgPath} className="rounded-[1rem]" alt="AltImage-Project"/>
         </div>
         <div className="proid flex">
         <p className="descrip w-[17rem] h-[2.5rem] overflow-auto"><span className='text-twblue'>Description</span> - {words}</p>
-        <a href={dlink} target={"_blank"} className="relative bottom-2"><img src={require('./deployment-Link.png')} className="w-[3rem] hover:scale-95 hover:border-[1px] hover:border-twblue hover:rounded-[30%]"/></a>
+        <a href={dlink} target="_blank" rel="noreferrer" className="relative bottom-2"><img src={require('./deployment-Link.png')} className="w-[3rem] hover:scale-95 hover:border-[1px] hover:border-twblue hover:rounded-[30%]" alt="DepolyImg"/></a>
         </div>
         
     </div>);

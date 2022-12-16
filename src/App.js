@@ -5,7 +5,7 @@ import AboutMe from "./Files/Aboutme/AboutMe";
 import Projects from './Files/Projects/Projects';
 import ContactMe from './Files/Contactme/Contactme';
 import { ToastContainer  } from 'react-toastify';
-import { HashRouter,Routes,Route,Link, useParams} from 'react-router-dom';
+import { HashRouter,Routes,Route} from 'react-router-dom';
 import "react-toastify/dist/ReactToastify.css";
 function App() {
   return (
