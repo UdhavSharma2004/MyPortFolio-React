@@ -77,11 +77,10 @@ backdrop-filter: blur(5.7px);
 }
 @media (max-width:866px){
   .profileImg{
-    padding-left: 25vw;
-    padding-right: 25vw;
+    padding:auto;
   }
 }
-@media (max-width: 360px){
+@media (max-width: 866px){
   .contactmehere,.contactform{
     width:100vw;
   }
@@ -104,7 +103,7 @@ backdrop-filter: blur(5.7px);
     height:120px;
  }
 } */
-@media (max-width:760px){
+@media (max-width:866px){
   #navb{
     /*  */
     position: fixed;

@@ -1,7 +1,7 @@
 export default function Home(){
   return (
-    <div className="box flex text-white touch-pan-y bg-gradient-to-r from-twgS to-twgE w-[100vw] mt-[5rem] font-normal text-[2rem] flex-wrap-reverse">
-      <div className="leftcont ml-[3vw] my-[20vh]">
+    <div className="box flex text-white touch-pan-y bg-gradient-to-r from-twgS to-twgE mt-[5rem] font-normal text-[2rem] flex-wrap-reverse">
+      <div className="leftcont w-auto text-center my-[20vh] ">
         {/* name + connect-with-me + 3 icons*/}
         {/* Name */}
         <div className="myself">
