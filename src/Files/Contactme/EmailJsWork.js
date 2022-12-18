@@ -44,10 +44,10 @@ export default function EmailJS() {
   return (
     <form ref={form} onSubmit={sendEmail}>
       <h3 className="text-twblue text-[2.5rem] font-black text-center mb-2">Direct Contact</h3>
-      <input id="NameSend" type="text" placeholder="YOUR NAME" name="user_name" className="bg-transparent border-[3px] border-white rounded-[30px] w-[100%] h-[75px]  m-2 placeholder-twblue p-2 toEmpty" />
-      <input id="EmailSend" type="email" placeholder="YOUR EMAIL" name="user_email" className="bg-transparent border-[3px] border-white rounded-[30px] w-[100%] h-[75px]  m-2 placeholder-twblue p-2 toEmpty" />
-      <textarea id="MessageSend" name="message" placeholder="ENTER MESSAGE" className=" bg-transparent border-[3px] border-white rounded-[30px] w-[100%] h-[200px] m-2 placeholder-twblue p-2 toEmpty" />
-      <input type="submit" value="Send" className=" bg-transparent border-[3px] border-white rounded-[10px]  w-[75px] h-[50px] my-[20px] mx-[40%] active:bg-twblue active:text-white duration-[100ms] delay-[100ms]" />
+      <input id="NameSend" type="text" placeholder="YOUR NAME" name="user_name" className="bg-transparent border-[3px] border-white rounded-[2rem] w-[100%] h-[4.6rem]  m-2 placeholder-twblue p-2 toEmpty" />
+      <input id="EmailSend" type="email" placeholder="YOUR EMAIL" name="user_email" className="bg-transparent border-[3px] border-white rounded-[2rem] w-[100%] h-[4.6rem]  m-2 placeholder-twblue p-2 toEmpty" />
+      <textarea id="MessageSend" name="message" placeholder="ENTER MESSAGE" className=" bg-transparent border-[3px] border-white rounded-[2rem] w-[100%] h-[12.5rem] m-2 placeholder-twblue p-2 toEmpty" />
+      <input type="submit" value="Send" className=" bg-transparent border-[3px] border-white rounded-[0.5rem]  w-[4.6rem] h-[3rem] my-[1rem] mx-[40%] active:bg-twblue active:text-white duration-[100ms] delay-[100ms]" />
     </form>
   );
 };

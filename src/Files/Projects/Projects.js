@@ -1,61 +1,61 @@
 export default function Projects(){
     const projects=[
         {
-            "projId":"latest",
+            "key":"0",
             "description":"New Project Under Process",
             "imgSrc":"/Project_img.jpeg",
             "deployLink":"https://github.com/UdhavSharma2004?tab=repositories"
         },
         {
-            "projId":"1",
+            "key":"1",
             "description":"Random quote generator",
             "imgSrc":"/quoteGenerator.jpg",
             "deployLink":"https://udhavsharma2004.github.io/Random_quote_generator/"
         },
         {
-            "projId":"2",
+            "key":"2",
             "description":"Stopwatch using JS",
             "imgSrc":"/stopwatch.jpg",
             "deployLink":"https://udhavsharma2004.github.io/stop_watch_JS/"
         },
         {
-            "projId":"3",
+            "key":"3",
             "description":"Clock using JS",
             "imgSrc":"/clockImage.jpg",
             "deployLink":"https://udhavsharma2004.github.io/Clock_using_JS/"
         },
         {
-            "projId":"4",
+            "key":"4",
             "description":"Calculator using JS",
             "imgSrc":"/calculator.jpg",
             "deployLink":"https://udhavsharma2004.github.io/Calculator_JS/"
         },
         {
-            "projId":"5",
+            "key":"5",
             "description":"Task Organizer using JS",
             "imgSrc":"/taskOrganizer.jpg",
             "deployLink":"https://udhavsharma2004.github.io/task_organizer/"
         },
         {
-            "projId":"6",
+            "key":"6",
             "description":"ReactJs-JSON Server CRUD app",
             "imgSrc":"/crudapp.jpg",
             "deployLink":"https://github.com/UdhavSharma2004/CRUDApp_1"
         },
         {
-            "projId":"7",
+            "key":"7",
             "description":"Instagram Clone HTML-CSS",
             "imgSrc":"/imstagram.jpg",
             "deployLink":"https://udhavsharma2004.github.io/Instagram_clone/"
         },
         {
-            "projId":"8",
+            "key":"8",
             "description":"Taj Hotels Clone HTML-CSS",
             "imgSrc":"/Tajhotels.jpg",
             "deployLink":"https://udhavsharma2004.github.io/clone_taj_hotels_2/"
         },
         {
-            "projId":"9",
+            "key":"9",
             "description":"Sudoku Solver HTML-CSS-JS, also OSC",
             "imgSrc":"/sudoku.jpg",
             "deployLink":"https://onehtmlpagechallenge.com/entries/UdhavSudoku.html"
@@ -80,7 +80,7 @@ export default function Projects(){
         
     }
     return (
-        <div className="mainBox touch-pan-y flex text-white px-[20px] bg-gradient-to-r flex-wrap from-twgS to-twgE mt-[140px]">
+        <div className="mainBox touch-pan-y flex text-white px-[1rem] bg-gradient-to-r flex-wrap from-twgS to-twgE mt-[8.75rem]">
             {list}
         </div>
     );

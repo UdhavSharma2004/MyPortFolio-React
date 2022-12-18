@@ -48,7 +48,7 @@ export default function Home(){
       <div className="rightcont flex flex-col justify-center items-center">
         <div className="profileImg ">
           <img
-            className="PImage flex flex-col justify-center items-center rounded-[20px] mt-[60px] max-w-[24rem]"
+            className="PImage flex flex-col justify-center items-center rounded-[1rem] mt-[3.75rem] max-w-[24rem]"
             src={require("./ProfileImg.jpg")}
             alt="logo"
           />
