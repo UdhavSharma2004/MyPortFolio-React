@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/MyPortFolio-React/static/css/main.47ff8a07.css",
-    "main.js": "/MyPortFolio-React/static/js/main.03fb8c96.js",
+    "main.js": "/MyPortFolio-React/static/js/main.e7fc8b04.js",
     "static/js/787.ac6430c1.chunk.js": "/MyPortFolio-React/static/js/787.ac6430c1.chunk.js",
     "static/media/ProfileImg.jpg": "/MyPortFolio-React/static/media/ProfileImg.5a0da28c00345b67eb8e.jpg",
     "static/media/githubImg.jpg": "/MyPortFolio-React/static/media/githubImg.5ada6e72ddf731377abe.jpg",
@@ -12,11 +12,11 @@
     "static/media/GMAILLogo.jpeg": "/MyPortFolio-React/static/media/GMAILLogo.dbbe121e4897b5e99516.jpeg",
     "index.html": "/MyPortFolio-React/index.html",
     "main.47ff8a07.css.map": "/MyPortFolio-React/static/css/main.47ff8a07.css.map",
-    "main.03fb8c96.js.map": "/MyPortFolio-React/static/js/main.03fb8c96.js.map",
+    "main.e7fc8b04.js.map": "/MyPortFolio-React/static/js/main.e7fc8b04.js.map",
     "787.ac6430c1.chunk.js.map": "/MyPortFolio-React/static/js/787.ac6430c1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.47ff8a07.css",
-    "static/js/main.03fb8c96.js"
+    "static/js/main.e7fc8b04.js"
   ]
 }
