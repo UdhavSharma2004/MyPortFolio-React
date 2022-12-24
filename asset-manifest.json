@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/MyPortFolio-React/static/css/main.47ff8a07.css",
-    "main.js": "/MyPortFolio-React/static/js/main.e7fc8b04.js",
+    "main.js": "/MyPortFolio-React/static/js/main.871ca121.js",
     "static/js/787.ac6430c1.chunk.js": "/MyPortFolio-React/static/js/787.ac6430c1.chunk.js",
-    "static/media/ProfileImg.jpg": "/MyPortFolio-React/static/media/ProfileImg.5a0da28c00345b67eb8e.jpg",
+    "static/media/NewProfileImg.jpg": "/MyPortFolio-React/static/media/NewProfileImg.3e1c5d3b720b6716ab27.jpg",
     "static/media/githubImg.jpg": "/MyPortFolio-React/static/media/githubImg.5ada6e72ddf731377abe.jpg",
     "static/media/instagramlogo.jpg": "/MyPortFolio-React/static/media/instagramlogo.0406b3f11fb83124926c.jpg",
     "static/media/logoImg.jpg": "/MyPortFolio-React/static/media/logoImg.a7a6b40b3b1668c7a580.jpg",
@@ -12,11 +12,11 @@
     "static/media/GMAILLogo.jpeg": "/MyPortFolio-React/static/media/GMAILLogo.dbbe121e4897b5e99516.jpeg",
     "index.html": "/MyPortFolio-React/index.html",
     "main.47ff8a07.css.map": "/MyPortFolio-React/static/css/main.47ff8a07.css.map",
-    "main.e7fc8b04.js.map": "/MyPortFolio-React/static/js/main.e7fc8b04.js.map",
+    "main.871ca121.js.map": "/MyPortFolio-React/static/js/main.871ca121.js.map",
     "787.ac6430c1.chunk.js.map": "/MyPortFolio-React/static/js/787.ac6430c1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.47ff8a07.css",
-    "static/js/main.e7fc8b04.js"
+    "static/js/main.871ca121.js"
   ]
 }
