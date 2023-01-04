@@ -56,6 +56,12 @@ export default function Projects(){
         },
         {
             "key":"9",
+            "description":"ToDo (CRUD) App using React JS",
+            "imgSrc":"/crudapp.jpg",
+            "deployLink":"https://github.com/UdhavSharma2004/React-ToDoLists"
+        },
+        {
+            "key":"10",
             "description":"Sudoku Solver HTML-CSS-JS, also OSC",
             "imgSrc":"/sudoku.jpg",
             "deployLink":"https://onehtmlpagechallenge.com/entries/UdhavSudoku.html"
