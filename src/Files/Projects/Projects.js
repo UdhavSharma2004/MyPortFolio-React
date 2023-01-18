@@ -58,14 +58,20 @@ export default function Projects(){
             "key":"9",
             "description":"ToDo (CRUD) App using React JS",
             "imgSrc":"/crudapp.jpg",
-            "deployLink":"https://github.com/UdhavSharma2004/React-ToDoLists"
+            "deployLink":"https://udhavsharma2004.github.io/React-ToDoLists/"
         },
         {
             "key":"10",
+            "description":"React-color-challenge",
+            "imgSrc":"/crudapp.jpg",
+            "deployLink":"https://udhavsharma2004.github.io/React-color-Challenge/"
+        },
+        {
+            "key":"11",
             "description":"Sudoku Solver HTML-CSS-JS, also OSC",
             "imgSrc":"/sudoku.jpg",
             "deployLink":"https://onehtmlpagechallenge.com/entries/UdhavSudoku.html"
-        },
+        }
     ]
     let total=projects.length;
     const list=[];
