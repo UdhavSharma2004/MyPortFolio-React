@@ -79,12 +79,12 @@ export default function Projects(){
         let words=projects[i].description;
         let dlink=projects[i].deployLink;
         let imgPath=projects[i].imgSrc;
-        list.push(<div className="obj w-[22.5rem] h-[16rem] m-1 border-[0.25rem] border-white rounded-[1rem]">
-        <div className="image m-[1rem] w-[17rem]">
-            <img src={process.env.PUBLIC_URL + '/images/'+imgPath} className="rounded-[1rem]" alt="AltImage-Project"/>
+        list.push(<div className="obj w-[22.5rem] h-[17rem] m-1 border-[0.25rem] border-white rounded-[1rem]">
+            <div className="image m-[1rem] w-[17rem]">
+                <a href={dlink} target="_blank" rel="noreferrer" className="relative bottom-2"><img src={process.env.PUBLIC_URL + '/images/' + imgPath} className="rounded-[1rem]" alt="AltImage-Project" /></a>
         </div>
         <div className="proid flex">
-        <p className="descrip w-[17rem] h-[2.5rem] overflow-auto"><span className='text-twblue'>Description</span> - {words}</p>
+        <p className="descrip w-[17rem] h-[3rem] overflow-auto"><span className='text-twblue'>Description</span> - {words}</p>
         <a href={dlink} target="_blank" rel="noreferrer" className="relative bottom-2"><img src={require('./deployment-Link.png')} className="w-[3rem] hover:scale-95 hover:border-[1px] hover:border-twblue hover:rounded-[30%]" alt="DepolyImg"/></a>
         </div>
         
