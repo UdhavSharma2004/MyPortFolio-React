@@ -71,6 +71,12 @@ export default function Projects(){
             "description":"Sudoku Solver HTML-CSS-JS, also OSC",
             "imgSrc":"/sudoku.jpg",
             "deployLink":"https://onehtmlpagechallenge.com/entries/UdhavSudoku.html"
+        },
+        {
+            "key":"12",
+            "description":"MERN stack Banking App",
+            "imgSrc":"/mernProject_1.jpg",
+            "deployLink":"https://udhavsharma2004.github.io/Bank-full-stack-frontend/"
         }
     ]
     let total=projects.length;
