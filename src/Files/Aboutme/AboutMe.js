@@ -15,12 +15,6 @@ export default function AboutMe() {
                 I am trying my best to have proper logic building by participating in Programming contests and also have better creative skills by diving into the ocean of web technologies.
                 You can check my profiles on different platforms from the links given below.</p>
             <div className="profiles flex space-l-[4rem] flex-wrap justify-center my-[2rem]">
-                <a rel="noreferrer" href="https://www.codechef.com/users/udhavsharma04" target={'_blank'}>
-                    <img src={require('./codechefLogo.jpeg')} className="w-[6rem] m-[1rem] rounded-[1rem] hover:scale-95 hover:border-[0.25rem] border-twblue" alt="AboutLogo" />
-                </a>
-                <a rel="noreferrer" href="https://codeforces.com/profile/UdhavSharma" target={'_blank'}>
-                    <img src={require('./codeforcesLogo.jpg')} className="w-[6rem] m-[1rem] rounded-[1rem] hover:scale-95 hover:border-[0.25rem] border-twblue" alt="AboutLogo" />
-                </a>
                 <a rel="noreferrer" href="https://auth.geeksforgeeks.org/user/udhavsharma2004" target={'_blank'}>
                     <img src={require('./GeeksForGeeksLogo.jpg')} className="w-[6rem] m-[1rem] rounded-[1rem] hover:scale-95 hover:border-[0.25rem] border-twblue" alt="AboutLogo" />
                 </a>
