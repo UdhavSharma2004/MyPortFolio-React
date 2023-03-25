@@ -1,22 +1,21 @@
 {
   "files": {
     "main.css": "/MyPortFolio-React/static/css/main.f507580e.css",
-    "main.js": "/MyPortFolio-React/static/js/main.24f96e9a.js",
+    "main.js": "/MyPortFolio-React/static/js/main.62e43a25.js",
     "static/js/787.ac6430c1.chunk.js": "/MyPortFolio-React/static/js/787.ac6430c1.chunk.js",
     "static/media/NewProfileImg.jpg": "/MyPortFolio-React/static/media/NewProfileImg.3e1c5d3b720b6716ab27.jpg",
     "static/media/githubImg.jpg": "/MyPortFolio-React/static/media/githubImg.5ada6e72ddf731377abe.jpg",
     "static/media/instagramlogo.jpg": "/MyPortFolio-React/static/media/instagramlogo.0406b3f11fb83124926c.jpg",
     "static/media/logoImg.jpg": "/MyPortFolio-React/static/media/logoImg.a7a6b40b3b1668c7a580.jpg",
     "static/media/deployment-Link.png": "/MyPortFolio-React/static/media/deployment-Link.5ae0f8d3ead4722213fc.png",
-    "static/media/codeforcesLogo.jpg": "/MyPortFolio-React/static/media/codeforcesLogo.bac9882688015531fa0b.jpg",
     "static/media/GMAILLogo.jpeg": "/MyPortFolio-React/static/media/GMAILLogo.dbbe121e4897b5e99516.jpeg",
     "index.html": "/MyPortFolio-React/index.html",
     "main.f507580e.css.map": "/MyPortFolio-React/static/css/main.f507580e.css.map",
-    "main.24f96e9a.js.map": "/MyPortFolio-React/static/js/main.24f96e9a.js.map",
+    "main.62e43a25.js.map": "/MyPortFolio-React/static/js/main.62e43a25.js.map",
     "787.ac6430c1.chunk.js.map": "/MyPortFolio-React/static/js/787.ac6430c1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f507580e.css",
-    "static/js/main.24f96e9a.js"
+    "static/js/main.62e43a25.js"
   ]
 }
