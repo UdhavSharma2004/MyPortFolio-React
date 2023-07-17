@@ -7,7 +7,7 @@ export default function Home(){
         <div className="myself">
           <p>
             Hey ! I’m <span className="text-twblue">Udhav Sharma</span>,
-            <br></br>CSE Sophomore @<span className="text-twblue">GZSCCET</span>
+            <br></br>CSE Pre-Senior @<span className="text-twblue">GZSCCET</span>
           </p>
         </div>
         <div className="connection">
