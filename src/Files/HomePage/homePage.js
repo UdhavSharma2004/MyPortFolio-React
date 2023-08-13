@@ -15,7 +15,7 @@ export default function Home(){
             <br></br>Connect with me here -
           </p>
         </div>
-        <div className="logos flex space-x-[6vw] mt-[2.5rem] mx-[2rem]">
+        <div className="logos flex justify-center align-middle space-x-[6vw] mt-[2.5rem] mx-[2rem]">
           <div className="homeIcons linkedIn hover:">
             <a href="https://www.linkedin.com/in/udhavsharma2004/" target={"_blank"} rel="noreferrer">
               <img

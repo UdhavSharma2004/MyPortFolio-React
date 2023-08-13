@@ -74,9 +74,27 @@ export default function Projects(){
         },
         {
             "key":"12",
-            "description":"MERN stack Banking App",
+            "description":"Bank Management System",
             "imgSrc":"/mernProject_1.jpg",
             "deployLink":"https://udhavsharma2004.github.io/Bank-full-stack-frontend/"
+        },
+        {
+            "key": "13",
+            "description": "Newspaper Agency Management System",
+            "imgSrc": "/OurNewsApp.png",
+            "deployLink": "https://github.com/UdhavSharma2004/NewsPaperAgency-JavaFx_JDBC"
+        },
+        {
+            "key": "14",
+            "description": "Blood Bank Management System",
+            "imgSrc": "/BloodBank.png",
+            "deployLink": "https://github.com/UdhavSharma2004/BloodBankManagement"
+        },
+        {
+            "key": "15",
+            "description": "Testing Portal",
+            "imgSrc": "/USAcademy.png",
+            "deployLink": "https://github.com/UdhavSharma2004/Testing-Portal-US_Academy"
         }
     ]
     let total=projects.length;
@@ -98,7 +116,7 @@ export default function Projects(){
         
     }
     return (
-        <div className="mainBox touch-pan-y flex text-white px-[1rem] bg-gradient-to-r flex-wrap from-twgS to-twgE mt-[8.75rem]">
+        <div className="mainBox flex justify-center align-middle text-white px-[1rem] bg-gradient-to-r flex-wrap from-twgS to-twgE mt-[8.75rem]">
             {list}
         </div>
     );
